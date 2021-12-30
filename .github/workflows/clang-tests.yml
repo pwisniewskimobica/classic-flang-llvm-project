@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'release/**'
+      - "test_branch_przemek"
     paths:
       - 'clang/**'
       - 'llvm/**'
